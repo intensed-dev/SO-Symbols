@@ -17,7 +17,7 @@ Instead, report them privately.
 Preferred contact:
 
 * GitHub Security Advisories (if enabled)
-* Email: **[SECURITY EMAIL]**
+* Discord: **@intensed.dev**
 
 Include:
 
