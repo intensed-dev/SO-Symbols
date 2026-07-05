@@ -6,9 +6,9 @@ The following projects are officially part of the San Orien ecosystem and may us
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| San Orien UI | UI Framework | ✅ |
-| San Orien CLI | Command Line Tools | ✅ |
-| San Orien Docs | Documentation Website | ✅ |
+| San Orien App | San Orien's App | ✅ |
+| San Orien Pro | San Orien Font | ✅ |
+| San Orien Symbols | San Orien's Icon Library | ✅ |
 
 ## Approved External Projects
 
