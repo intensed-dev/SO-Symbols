@@ -2,55 +2,53 @@ name: External Usage Request
 description: Request permission to use San Orien Symbols outside the San Orien ecosystem.
 title: "[Usage Request]: "
 labels:
-
-* license
-* approval-required
+  - license
+  - approval-required
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        According to the San Orien Symbols License, external usage requires approval.
 
-* type: markdown
-  attributes:
-  value: |
-  According to the San Orien Symbols License, external usage requires approval.
+  - type: input
+    id: project
+    attributes:
+      label: Project name
 
-* type: input
-  id: project
-  attributes:
-  label: Project name
+  - type: input
+    id: repository
+    attributes:
+      label: Repository URL (optional)
 
-* type: input
-  id: repository
-  attributes:
-  label: Repository URL (optional)
+  - type: input
+    id: website
+    attributes:
+      label: Website (optional)
 
-* type: input
-  id: website
-  attributes:
-  label: Website (optional)
+  - type: dropdown
+    id: commercial
+    attributes:
+      label: Commercial?
+      options:
+        - Yes
+        - No
 
-* type: dropdown
-  id: commercial
-  attributes:
-  label: Commercial?
-  options:
-  - Yes
-  - No
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your project
 
-* type: textarea
-  id: description
-  attributes:
-  label: Describe your project
+  - type: textarea
+    id: usage
+    attributes:
+      label: How will San Orien Symbols be used?
 
-* type: textarea
-  id: usage
-  attributes:
-  label: How will San Orien Symbols be used?
-
-* type: checkboxes
-  id: confirmation
-  attributes:
-  label: Confirmation
-  options:
-  - label: I have read the license.
-  - label: I will provide attribution.
-  - label: I understand that approval is not guaranteed.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read the license.
+        - label: I will provide attribution.
+        - label: I understand that approval is not guaranteed.
