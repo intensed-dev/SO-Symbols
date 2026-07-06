@@ -4,6 +4,8 @@ title: "[Usage Request]: "
 labels:
   - license
   - approval-required
+assignees:
+  - intensed-dev
 
 body:
   - type: markdown
