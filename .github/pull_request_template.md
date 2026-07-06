@@ -23,5 +23,5 @@ Describe what this PR changes.
 * [ ] I have tested my changes.
 * [ ] My icons follow the project style.
 * [ ] I have updated documentation if needed.
-* [ ] I agree that my contribution may be included under the San Orien Symbols License.
+* [ ] I agree that my contribution may be included under the San Orien General License (SOGL-1.0).
 * [ ] I understand that submitting this PR does not guarantee acceptance.
