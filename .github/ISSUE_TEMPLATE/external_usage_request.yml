@@ -31,8 +31,8 @@ body:
     attributes:
       label: Commercial?
       options:
-        - Yes
-        - No
+        - "Commercial"
+        - "Non-Commercial"
 
   - type: textarea
     id: description
